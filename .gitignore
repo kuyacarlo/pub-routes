@@ -1,0 +1,44 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Data files
+*.html
+*.csv
+[uU]ntitled*
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# VSCode / IDE settings
+.vscode/
+.idea/
+
+# OS / system files
+.DS_Store
+Thumbs.db
+
+# Environment folders (common)
+env/
+venv/
+.venv/
+
+# Logs
+*.log
+
+# Output / data folders (optional, if you generate large outputs)
+output/
+
+# JupyterLab
+.jupyter/
+
+# Data
+Regions/
+out.jsonl

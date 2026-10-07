@@ -32,3 +32,13 @@ uv run 03.py
 - [ ] Convert the transport routes onto pathways(or anything that describes the full route) with OpenStreetMap(or related map)
 
 Made with 💙 with kuya-carlo
+## Local finalization note
+
+This isolated copy preserves the LTFRB ETL pipeline for review/archive. Added a small regression test around route-row parsing and parenthesized region names, and recorded that Cloudflare-protected HTML must be provided manually before running the full pipeline.
+
+### Local checks
+
+```sh
+uv run python -m py_compile 01.py 02.py 03.py
+uv run pytest -q
+```
